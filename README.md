@@ -11,6 +11,9 @@ https://welcome234.statuspage.io/
 Cube2D Forums:
 https://cube2d.freeforums.net/
 
+Cube2D Plugin API:
+https://welcome234.github.io/welcomegames/cube2d/javadocs
+
 Privacy:
 https://welcome234.github.io/welcomegames/privacypolicy.html
 
