@@ -1,121 +1,371 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Home - WG</title>
-<style>
-* {
-  box-sizing: border-box;
-}
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZYRJ88EQ9Z"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-ZYRJ88EQ9Z');
+    </script>
+    <title>Home - Welcome's Games</title>
+    <style>
+    .wg-background {
+      font-family: Arial;
+      color: WHITE;
+      margin: 0;
+      background-image: url(data:image/png;base64,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);
+    }
+    
+    .wg-navbar {
+      list-style-type: none;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    .wg-navbar-title {
+      float: left;
+    }
+    
+    .wg-navbar-title a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 12px 12px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    
+    .wg-navbar-element {
+      float: right;
+    }
+    
+    .wg-navbar-element a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 12px 20px;
+      text-decoration: none;
+    }
+    
+    .wg-navbar-element a:hover {
+      background-color: rgba(0, 0, 0, 0.25);
+    }
+    
+    .wg-navbar-hamburger {
+      float: right;
+      display: none;
+    }
+    
+    .wg-navbar-hamburger a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 12px 16px;
+      text-decoration: none;
+    }
+    
+    .wg-navbar-hamburger a:hover {
+      background-color: rgba(0, 0, 0, 0.25);
+    }
+    
+    .wg-dropdown {
+      display: none;
+      list-style-type: none;
+      width: 150px;
+      position: fixed;
+      top: 45px;
+      right: 3px;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    .wg-dropdown-element {
+      float: left;
+    }
+    
+    .wg-dropdown-element a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 12px 0;
+      width: 150px;
+      text-decoration: none;
+    }
+    
+    .wg-dropdown-element a:hover {
+      background-color: rgba(0, 0, 0, 0.25);
+    }
+    
+    .wg-launcher-box {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top:95px;
+      width: 650px;
+      padding: 50px 0;
+      background-color: rgba(0, 0, 0, 0.25);
+    }
+  
+    .wg-launcher-box p {
+      padding-left: 50px;
+      padding-right: 50px;
+      text-align: center;
+      margin: 0;
+    }
+    
+    .wg-launcher-title {
+      padding-left: 50px;
+      padding-right: 50px;
+      font-weight: bold;
+      font-size: 25px;
+      margin: 0;
+    }
+    
+    .wg-button {
+      border: 3px outset rgb(0, 140, 15);
+      background-color: rgb(0, 165, 20);
+      font-weight: bold;
+      font-size: 15px;
+      color: white;
+      padding: 10px 30px;
+    }
+    
+    .wg-button:active {
+      border: 3px inset rgb(0, 140, 15);
+    }
+    
+    .wg-games-title {
+      text-align: center;
+      font-weight: bold;
+      font-size: 35px;
+      padding-top: 125px;
+      margin: 0;
+    }
+    
+    .wg-support-title {
+      text-align: center;
+      font-weight: bold;
+      font-size: 35px;
+      padding-top: 50px;
+      margin: 0;
+    }
+    
+    .wg-game-context {
+      margin: 10px 0;
+      margin-bottom: 60px;
+      width: 100%;
+      padding: 20px 0;
+      background-color: rgba(0, 0, 0, 0.25);
+    }
+    
+    .wg-support-context {
+      margin: 10px 0;
+      width: 100%;
+      padding: 20px 0;
+      background-color: rgba(0, 0, 0, 0.25);
+    }
+    
+    .wg-support-context p {
+      text-align: center;
+      font-size: 18px;
+    }
+    
+    .wg-game-description {
+      padding-top: 20px;
+      width: calc(100% - 465px);
+      display:inline-block;
+      vertical-align:top;
+    }
+    
+    .wg-game-description p {
+      text-align: right;
+      font-size: 18px;
+      padding-left: 30%;
+      margin: 0;
+    }
+    
+    .wg-game-buttons {
+      padding-top: 10px;
+      width: calc(100% - 50px);
+      margin-left: 25px;
+    }
+    
+    .wg-game-buttons a {
+      margin-left: 0;
+      margin-right: 20px;
+    }
+    
+    .wg-game-buttons a button {
+      margin-top: 10px;
+    }
+    
+    .wg-game-title {
+      text-align: right;
+      padding-right: 25px;
+      font-weight: bold;
+      font-size: 30px;
+      margin: 0;
+    }
 
-body {
-  font-family: Arial;
-  color: WHITE;
-  margin: 0;
-  background: #06B039;
-}
-
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-
-
-.middlecolumn {
-  width: 1050px;
-  background-color: #06B039;
-  padding-left: 0px;
-}
-
-/* Fake image */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
-
-/* Add a card effect for articles */
-.card {
-  background-color: #1A7500;
-  padding: 20px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  border-radius: 4px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.button {
-  background-color: #0F3E01;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 3px;
-}
-
-.linkbutton {
-  background-color: #0F3E01;
-  border: none;
-  color: white;
-  padding: 24px 24px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 24px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 3px;
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-
-@media screen and (max-width: 1100px) {
-  .middlecolumn {
-    float: none;
-    width: 100%;
-  }
-}
-</style>
-</head>
-<body>
-<div style="padding: 15px;">
-</script>
-  <div class="row">
-  <center>
-  <div class="middlecolumn">
-    <div class="card">
-    <br>
+    .wg-game-video {
+      padding-top: 20px;
+      width: 410px;
+      display:inline-block;
+      margin-left: 25px;
+      vertical-align:top;
+    }
+    
+    .wg-game-vframe {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      padding-top: 56.25%;
+    }
+    
+    .wg-game-vframe iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+    
+    .wg-game-news {
+      padding-top: 60px;
+      width: calc(100% - 58px);
+      margin-left: 25px;
+    }
+    
+    .wg-game-news p {
+      padding-bottom: 10px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 25px;
+      margin: 0;
+    }
+    
+    .wg-game-news iframe {
+      border: 4px inset rgb(30, 140, 0);
+      background-color: white;
+      width: 100%;
+      height: 350px;
+    }
+    
+    @media screen and (max-width: 640px) {
+      .wg-navbar-element {
+        display: none;
+      }
+      
+      .wg-navbar-hamburger {
+        display: block;
+      }
+    }
+    
+    @media screen and (max-width: 690px) {
+      .wg-launcher-box {
+        width: calc(100% - 24px);
+      }
+    }
+    
+    @media screen and (max-width: 860px) {
+      .wg-game-description {
+        padding-top: 20px;
+        width: calc(100% - 50px);
+        display: block;
+        margin-left: 25px;
+      }
+      
+      .wg-game-description p {
+        text-align: left;
+        padding-left: 0;
+      }
+      
+      .wg-game-video {
+        padding-top: 20px;
+        width: calc(100% - 50px);
+        display:block;
+        margin-left: 25px;
+      }
+    }
+    </style>
+  </head>
+  <body class="wg-background">
+    <ul class="wg-navbar">
+      <li class="wg-navbar-title"><a>Welcome's Games</a></li>
+      <li class="wg-navbar-element"><a href="https://github.com/Welcome234/welcomegames">Github</a></li>
+      <li class="wg-navbar-element"><a href="https://welcome234.statuspage.io/">Status</a></li>
+      <li class="wg-navbar-element"><a href="https://discord.gg/KdSeAD3">Discord</a></li>
+      <li class="wg-navbar-element"><a href="https://welcome234.github.io/welcomegames/privacypolicy.html">Privacy</a></li>
+      <li class="wg-navbar-element"><a href="https://welcome234.github.io/welcomegames/">Home</a></li>
+      <li class="wg-navbar-hamburger"><a href="javascript:void(0)" onclick="showDropdown();">&#8801;</a></li>
+    </ul>
+    <ul class="wg-dropdown" id="dropdown-menu">
+      <li class="wg-dropdown-element"><a href="https://welcome234.github.io/welcomegames/">Home</a></li>
+      <li class="wg-dropdown-element"><a href="https://welcome234.github.io/welcomegames/privacypolicy.html">Privacy</a></li>
+      <li class="wg-dropdown-element"><a href="https://discord.gg/KdSeAD3">Discord</a></li>
+      <li class="wg-dropdown-element"><a href="https://welcome234.statuspage.io/">Status</a></li>
+      <li class="wg-dropdown-element"><a href="https://github.com/Welcome234/welcomegames">Github</a></li>
+    </ul>
+    <div class="wg-launcher-box">
+      <p class="wg-launcher-title">Welcome's Launcher</p>
       <br>
-      <h1>Welcome's Games</h1>
-<p>Welcome to the home page of our games, please check out the links below!</p>
-<br><br><br><br>
-<a href="https://cube2d.freeforums.io">Forums for Cube2D</a>
-<br>
-<a href="https://github.com/Welcome234/welcomegames/issues">Bug tracker</a>
-<br>
-<a href="https://discord.gg/KdSeAD3">Discord server</a>
-<br>
-<a href="https://github.com/Welcome234/welcomegames/releases">Get game launcher</a>
-<br>
-<a href="privacypolicy.html">Privacy policy</a>
-<br>
-<br>
-<br>
-<br>
-
+      <p>The Launcher is used to easily install and update our games in one simple application and provides settings for launching games such as setting your username and the character editor.<p>
       <br>
+      <br>
+      <br>
+<a href="https://github.com/Welcome234/welcomegames/releases/download/3.1/Welcome.s.Launcher.3.1.jar"><button class="wg-button">Download Launcher (v3.1)</button></a>
     </div>
-  </div>
-  </center>
-</div>
-</div>
-</body>
+    <p class="wg-games-title">Our Games<p>
+    <div class="wg-game-context">
+      <p class="wg-game-title">Cube2D</p>
+      <div class="wg-game-video">
+        <div class="wg-game-vframe">
+          <iframe src="https://www.youtube.com/embed/fGXdNDnbwzM"></iframe>
+        </div>
+      </div>
+      <div class="wg-game-description">
+        <p>Cube2D is a 2D sandbox game with infinite experience and endless possibilities, and you will need survive and build in a 2D world and fight the bosses to progress in your world. You can build cities, villages, amazing maps and more.</p>
+        <br>
+        <p>The game also has Multiplayer servers where you can play the game with your friends or other players and have fun in the game together.</p>
+      </div>
+      <div class="wg-game-news">
+        <p>Change logs<p>
+        <iframe src="https://welcome234.github.io/welcomegames/cube2d/news.html"></iframe>
+      </div>
+      <div class="wg-game-buttons">
+        <a href="https://welcome234.github.io/welcomegames/cube2d/Cube2D%20Server.jar"><button class="wg-button">Download Server</button></a>
+        <a href="https://cube2d.freeforums.net/"><button class="wg-button">Forums</button></a>
+        <a href="https://welcome234.github.io/welcomegames/cube2d/javadocs/"><button class="wg-button">Plugin API</button></a>
+        <a href="https://www.youtube.com/watch?v=fGXdNDnbwzM"><button class="wg-button">Trailer</button></a>
+      </div>
+    </div>
+    <p class="wg-support-title">Support<p>
+    <div class="wg-support-context">
+      <p>Discord: <a href="https://discord.gg/KdSeAD3">Get support on our server</a></p>
+      <p>Contact email: <a href="mailto:welcomesgames@proton.me">welcomesgames@proton.me</a></p>
+    </div>
+    
+    <script>
+    function showDropdown() {
+      var x = document.getElementById("dropdown-menu");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
+  </body>
 </html>
