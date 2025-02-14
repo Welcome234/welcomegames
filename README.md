@@ -5,6 +5,9 @@ Game Developers:
 - Welcome_234 
 - ParaWodna 
 
+Home:
+https://welcome234.github.io/welcomegames/
+
 Status page:
 https://welcome234.statuspage.io/
 
