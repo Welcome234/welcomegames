@@ -1,0 +1,2 @@
+Official Server | cube2d.mcpro.io | N/A | None
+Test server | example.com | Example server | https://example.com
