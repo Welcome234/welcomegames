@@ -1,2 +1,1 @@
-Official Server | cube2d.mcpro.io | N/A | None
-Test server | example.com | Example server | https://example.com
+Official Server | cube2d.mcpro.io | Our official server hosted by Welcome_234, the founder of cube2d. The server is a survival server and where our community can build, explore and play together and build anything on our server. Feel free to join our server and experience the Multiplayer experience. | None
